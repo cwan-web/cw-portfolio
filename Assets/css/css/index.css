@@ -1,7 +1,7 @@
 
 :root{
  --primary-color: #4C243B;
- _--secondary-color:#AC7B84;
+ --secondary-color:#AC7B84;
  --auxilliary-color:#fff;
  --padding-horizontal:100px;
  --card-background-color:#FFEFF2;
@@ -165,3 +165,119 @@ nav>span>h1{
     font-size: 12px;
     margin-top: 12px;
 }
+#contactSection{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    height:60vh;
+
+}
+#contactSection>form{
+    padding: 24px;
+    width:60vw;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 24px;
+
+}
+#contactSection>form>h3{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 36px;
+    border-radius: 30px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+
+    
+}
+#contactSection>form>div>div{
+    color: var(--primary-color);
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+#contactSection>form> .usermessage{
+    margin-top: 16px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+#contactSection>form>.userNameEmail, .userAgeBirthday{
+    display: flex;
+}
+#contactSection>form> .userNameEmail ,.userAgeBirthday > div>label{
+   font-weight: 500;
+   color: var(--primary-color);
+
+}
+#contactSection>form> .userNameEmail>div>input{
+    border-radius: 12px;
+    width:14vw;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-right: 20px;
+    margin-bottom: 8px ;
+    height:30px;
+    
+
+}
+#contactSection>form> .userAgeBirthday>div>input{
+    border-radius: 12px;
+    width: 14vw;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-right: 20px;
+    margin-bottom: 8px ;
+    height:30px;
+    
+
+}
+#contactSection>form>div>label{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+#contactSection>form>div>textarea{
+    border-radius: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--primary-color);
+    font-size: 12px;
+    width: 90%;
+    height: 100px;
+
+    
+    
+}
+#contactSection>form>div>button{
+    all: unset;
+    background-color: var(--primary-color);
+    color:#fff;
+    width: 80%;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    transition: 1s;
+    display: block;
+    margin:auto;
+    transition:1s;
+
+}
+#contactSection>form>div>button:hover{
+     cursor: pointer;
+    background-color: lightsalmon;
+}
+
+
